@@ -1,2 +1,2 @@
 # JSSnippets
-useful code snippets with JS(ES6) 
+useful code snippets in JS(ES6) 
