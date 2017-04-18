@@ -3,6 +3,11 @@ class PubSub() {
 	constructor() {
 		this._uId = 0;
 		this._subjectMap = {};
+		// making it singleton
+		if(!this._instance) {
+			this._instance = new PubSub();
+		}
+		return this._instance;
 	}
 
 	subscribe(subject, callback) {
